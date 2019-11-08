@@ -29,7 +29,7 @@
     "glossy": "github:pavkriz/glossy#efb47740b14defcaae289f98f43ae276cccd1a2f"
   },
   "optionalDependencies": {
-    "unix-dgram": "2.0.2"
+    "unix-dgram": "github:bnoordhuis/node-unix-dgram#0ae2a61"
   },
   "peerDependencies": {
     "winston": "^3.0.0"
