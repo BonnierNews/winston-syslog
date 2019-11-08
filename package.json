@@ -1,7 +1,7 @@
 {
   "name": "winston-syslog",
   "description": "A syslog transport for winston",
-  "version": "2.0.0-fork",
+  "version": "2.3.0-fork",
   "author": "Charlie Robbins <charlie.robbins@gmail.com>",
   "contributors": [
     {
@@ -29,10 +29,13 @@
     "glossy": "github:pavkriz/glossy#efb47740b14defcaae289f98f43ae276cccd1a2f"
   },
   "optionalDependencies": {
-    "unix-dgram": "^2.0.2"
+    "unix-dgram": "2.0.2"
+  },
+  "peerDependencies": {
+    "winston": "^3.0.0"
   },
   "devDependencies": {
-    "eslint-config-populist": "^4.1.0",
+    "eslint-config-populist": "4.2.0",
     "vows": "^0.8.2",
     "winston": "^3.0.0"
   },
